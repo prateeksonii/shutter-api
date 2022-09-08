@@ -1,7 +1,7 @@
 # TODO
 
 - [x] Init API with Express and Typescript
-- [ ] Setup database connection and add models with Prisma
+- [x] Setup database connection and add models with Prisma
 - [ ] Add auth router
 - [ ] Add contact router
 - [ ] Init socket.io
