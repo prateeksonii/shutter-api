@@ -1,7 +1,16 @@
 import express from "express";
-import { errorHandler, notFoundHandler } from "./middlewares";
+import {
+  addInitMiddlewares,
+  errorHandler,
+  notFoundHandler,
+} from "./middlewares";
+import usersRouter from "./users/router";
 
 const app = express();
+
+addInitMiddlewares(app);
+
+app.use("/api/v1/users", usersRouter);
 
 app.all("*", notFoundHandler);
 app.use(errorHandler);
