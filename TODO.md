@@ -1,10 +1,10 @@
 # TODO
 
-[ ] Init API with Express and Typescript
-[ ] Setup database connection and add models with Prisma
-[ ] Add auth router
-[ ] Add contact router
-[ ] Init socket.io
-[ ] Add basic chat sockets
-[ ] Add group model
-[ ] Add group chat sockets
+- [x] Init API with Express and Typescript
+- [ ] Setup database connection and add models with Prisma
+- [ ] Add auth router
+- [ ] Add contact router
+- [ ] Init socket.io
+- [ ] Add basic chat sockets
+- [ ] Add group model
+- [ ] Add group chat sockets
