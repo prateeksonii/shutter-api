@@ -2,7 +2,7 @@
 
 - [x] Init API with Express and Typescript
 - [x] Setup database connection and add models with Prisma
-- [ ] Add auth router
+- [x] Add auth router
 - [ ] Add contact router
 - [ ] Init socket.io
 - [ ] Add basic chat sockets

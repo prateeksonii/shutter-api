@@ -9,3 +9,12 @@ export const signUpValidator = z.object({
 });
 
 export type SignUpBody = z.infer<typeof signUpValidator>["body"];
+
+export const signInValidator = z.object({
+  body: z.object({
+    username: z.string().min(4, "Username is too short"),
+    password: z.string().min(4, "Password is too short"),
+  }),
+});
+
+export type SignInBody = z.infer<typeof signInValidator>["body"];
